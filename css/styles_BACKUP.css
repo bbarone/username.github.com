@@ -1,0 +1,77 @@
+﻿body {
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	width: 1024px;
+	margin: 0 auto; 
+}
+
+nav {
+	height: 75px;
+	overflow-x: hidden;
+	background-color: #2a2a2a;
+	line-height: 75px;
+}
+
+ul {
+	font-family: 'Raleway', sans-serif;
+	list-style:none;
+    margin:0;
+    padding:0;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+li {
+	text-decoration: none;
+	color: white;
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+	display:inline-block;
+    padding-left:10px;
+	font-weight: bold;
+}
+
+h1 { 
+	font-family: 'Futura', 'Raleway', sans-serif;
+	color: white;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight: 900;
+	display: inline-block;
+	position: relative;
+}
+
+#issue {
+  width: 920px;
+}
+
+#first_article {
+  float: left;
+  width: 300px;
+  padding-right: 10px;
+}
+
+#second_article  {
+  float: left;
+  width: 300px;
+  padding-right: 10px;
+}
+
+#third_article  {
+  float: left;
+  width: 300px;
+}
+
+#clear {
+  clear: left;
+}
+
+ 
+footer {
+  font-size: 0.65em;
+  text-align: center;
+}
